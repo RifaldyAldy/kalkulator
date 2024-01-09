@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/kalkulator.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <marquee behavior="scroll" direction="left"
+        >BUATAN RIFALDY NIH BOSS</marquee
+      >
+      <div class="screen" id="screen">0</div>
+      <div class="buttons">
+        <button onclick="screen(7)">7</button>
+        <button onclick="screen(8)">8</button>
+        <button onclick="screen(9)">9</button>
+        <button onclick="bagi()" class="operator">/</button>
+        <button onclick="screen(4)">4</button>
+        <button onclick="screen(5)">5</button>
+        <button onclick="screen(6)">6</button>
+        <button onclick="kali()" class="operator">*</button>
+        <button onclick="screen(1)">1</button>
+        <button onclick="screen(2)">2</button>
+        <button onclick="screen(3)">3</button>
+        <button onclick="kurang()" class="operator">-</button>
+        <button onclick="screen(0)" class="double">0</button>
+        <button>.</button>
+        <button onclick="hitung()" class="operator">=</button>
+        <button onclick="tambah()" class="operator">+</button>
+        <button class="operator" onclick="hapus()"><</button>
+        <button onclick="hapusAll()" class="operator">C</button>
+      </div>
+    </div>
+    <script src="kalkulator.js"></script>
+  </body>
+</html>
